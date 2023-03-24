@@ -7,6 +7,26 @@ body{
     line-height: 1.6; 
 }
 
+#shop{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #04AA6D;
+    border: 1px solid #04AA6D;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#shop-btn{
+    color: #fff;
+    text-decoration: none;
+}
+
+#shop:hover{
+    opacity: 0.9;
+}
+
 a{
     text-decoration: none;
     color: #ccc; 
@@ -83,16 +103,16 @@ nav div{
 
 .Navbtn #login{
     margin-right: 5px;
-    border: 1px solid #444;
-    background-color: #F5F5F5;
-    color: #444;
+    border: 1px solid #143f85;
+    background-color: #143f85;
+    color: #fff;
 }
 
 .Navbtn #signup{
     margin-right: 10px;
-    border: 1px solid #444;
-    background-color: #F5F5F5;
-    color: #444;
+    border: 1px solid #04AA6D;
+    background-color: #04AA6D;
+    color: #fff;
 }
 
 .Navbtn #login:hover,

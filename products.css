@@ -1,0 +1,143 @@
+body{
+    font-family: 'PT Sans', sans-serif;  
+    margin: 0;
+    padding: 0;
+}
+
+footer .c5{
+    display: grid;
+    grid-gap:20px; 
+    grid-template-columns: repeat(4,1fr);
+    text-align: left;
+    padding: 2rem;
+    font-size:14px ;
+}
+
+footer .c5 ul{
+    list-style: none;
+}
+
+footer .c5 ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 2px;
+    margin-bottom: 1rem;
+}
+
+footer .c6{
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    color :rgb(51,34,34);
+   
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    float: left ;
+}
+
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+}
+
+nav div{
+    display: inline;
+    float: right;
+}
+
+.Navbtn button{
+    width: 100px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin-top: 6px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.Navbtn #login{
+    margin-right: 5px;
+    border: 1px solid #143f85;
+    background-color: #143f85;
+    color: #fff;
+}
+
+.Navbtn #signup{
+    margin-right: 10px;
+    border: 1px solid #04AA6D;
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+.Navbtn #login:hover,
+.Navbtn #signup:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+nav li:hover{
+    background-color: #444;
+    color: #ccc;
+    height: 54px;
+}
+
+nav li a:hover{
+    text-decoration: none;
+}
+
+nav .b1:hover{
+    background-color: #444;
+    height: 34px;
+}
+
+.card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    height: 220px;
+    text-align: center;
+}
+
+.card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.label-rating { 
+    margin-right:10px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-product .price-old {
+    color: #999;
+}
