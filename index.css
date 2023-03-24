@@ -107,6 +107,10 @@ nav .b1:hover{
     height: 34px;
 }
 
+.card-product{
+    margin-bottom: 30px;
+}
+
 .card-product .img-wrap {
     border-radius: 3px 3px 0 0;
     overflow: hidden;

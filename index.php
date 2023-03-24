@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 <body>
+<header>
 <nav class="c1">
     <ul class="c1">
         <li><a href="index.html">CLOVER</a></li>
@@ -18,6 +19,8 @@
         <li><a href="#">BEST SELLERS</a></li>
     </ul>
 </nav>
+</header>
+<section>
 <div class="container">
 <br><br>
 <div class="row">
@@ -251,6 +254,7 @@
 </div> <!-- col // -->
 </div> <!-- row.// -->
 </div>
+</section>
 <footer>
     <div class="container">
         <div class="c5">
@@ -302,9 +306,9 @@ var product_id =  $(this).attr("data-id");
 var options = {
 "key": "rzp_test_4EGbiqL3NwiuHC",
 "amount": (totalAmount*100), 
-"name": "clover",
+"name": "CLOVER",
 "description": "Payment",
-"image": "http://www.tutsmake.com/wp-content/uploads/2019/03/c05917807.png",
+"image": "images\logo.jpeg",
 "handler": function (response){
 $.ajax({
 url: 'payment-process.php',
