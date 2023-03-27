@@ -28,6 +28,7 @@ footer .c6{
     background-color: #333;
     padding: 1rem;
     text-align: center;
+    color: #fff;
 }
 
 nav{
@@ -50,11 +51,12 @@ nav li{
 
 nav a{
     display: inline-block;
-    width: 100px;
     text-align: center;
     text-decoration: none;
     padding: 10px 0;
     color: #eee;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 nav div{
@@ -72,34 +74,15 @@ nav div{
     font-family: cursive;
 }
 
-.Navbtn #login{
-    margin-right: 5px;
-    border: 1px solid #143f85;
-    background-color: #143f85;
-    color: #fff;
-}
-
-.Navbtn #signup{
-    margin-right: 10px;
-    border: 1px solid #04AA6D;
-    background-color: #04AA6D;
-    color: #fff;
-}
-
-.Navbtn #login:hover,
-.Navbtn #signup:hover{
-    opacity: 0.8;
-    cursor: pointer;
-}
-
 nav li:hover{
     background-color: #444;
     color: #ccc;
     height: 54px;
 }
 
-nav li a:hover{
+nav a:hover{
     text-decoration: none;
+    color: #eee;
 }
 
 nav .b1:hover{
