@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 <body>
+<div id="showcase">
 <header>
 <nav class="c1">
     <ul class="c1">
@@ -300,6 +301,7 @@
     </div>
     <div class="c6">copyright &copy; 2023 clover</div>
 </footer>
+</div>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script>
     $('body').on('click', '.buy_now', function(e){

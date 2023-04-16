@@ -74,7 +74,7 @@ nav ul{
 
 nav li{
     display: inline;
-    float: left ;
+    float: left;
 }
 
 nav a{
@@ -84,11 +84,6 @@ nav a{
     text-decoration: none;
     padding: 10px 0;
     color: #eee;
-}
-
-nav div{
-    display: inline;
-    float: right;
 }
 
 .Navbtn button{
@@ -152,7 +147,7 @@ footer .c5{
     grid-template-columns: repeat(4,1fr);
     text-align: left;
     padding: 2rem;
-    font-size:14px ;
+    font-size:14px;
 }
 
 footer .c5 ul{
