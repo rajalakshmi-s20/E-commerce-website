@@ -86,6 +86,11 @@ nav a{
     color: #eee;
 }
 
+.Navbtn{
+    display: inline;
+    float: right;
+}
+
 .Navbtn button{
     width: 100px;
     text-align: center;
