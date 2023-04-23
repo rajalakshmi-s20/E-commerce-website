@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     color: #fff;
+    line-height: 1.6;
 }
 
 a{
@@ -13,6 +14,11 @@ a{
 #showcase{
     margin: 0;
     padding: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
     width: 100%;
     position: relative;
     overflow-y: hidden;
@@ -41,8 +47,14 @@ nav a{
     text-decoration: none;
     padding: 10px 0;
     color: #eee;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.l1{
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 nav a:hover{
@@ -99,6 +111,11 @@ nav .b1:hover{
     color: #999;
 }
 
+footer{
+    background-color: #252529;
+    padding-top: 20px;
+}
+
 footer .c5{
     display: grid;
     grid-gap:20px; 
@@ -110,6 +127,16 @@ footer .c5{
 
 footer .c5 ul{
     list-style: none;
+}
+
+footer .c5 ul li{
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer .c5 ul li a{
+    color: #ccc;
+    font-family: 'PT Sans', sans-serif;
 }
 
 footer .c5 ul li:first-child{

@@ -14,7 +14,7 @@
 <header>
 <nav class="c1">
     <ul class="c1">
-    <li><a href="#">CLOVER</a></li>
+    <li><a href="index.html" class="l1">CLOVER</a></li>
     <li><a href="#">FILTERS</a></li>
     <li><a href="#">BEST SELLERS</a></li>
     <li><a href="#">TODAY'S DEALS</a></li>
@@ -312,7 +312,7 @@
     "amount": (totalAmount*100), 
     "name": "CLOVER",
     "description": "Payment",
-    "image": "images\logo.jpeg",
+    "image": "logo.jpeg",
     "handler": function (response){
     $.ajax({
     url: 'payment-process.php',
